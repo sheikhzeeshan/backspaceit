@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--dark-color);
+}
+
+.service-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-card ul li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.service-card ul li:before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+.area-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.area-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.testimonial-card .name {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.testimonial-card .date {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.contact-section {
+    background-color: var(--light-color);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section {
+        padding: 40px 0;
+    }
+} 
