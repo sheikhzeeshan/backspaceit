@@ -1,0 +1,62 @@
+{
+  "areas": {
+    "NSW": [
+      "Sydney",
+      "Albury",
+      "Bathurst",
+      "Central Coast",
+      "Coffs Harbour",
+      "Maitland",
+      "Mittagong",
+      "Newcastle",
+      "Nowra",
+      "Orange",
+      "Port Macquarie",
+      "Tamworth",
+      "Taree",
+      "Tweed Heads",
+      "Wollongong"
+    ],
+    "VIC": [
+      "Melbourne",
+      "Ballarat",
+      "Bendigo",
+      "Geelong",
+      "Mildura",
+      "Shepparton",
+      "Traralgon",
+      "Wangaratta",
+      "Wodonga"
+    ],
+    "QLD": [
+      "Brisbane",
+      "Bundaberg",
+      "Cairns",
+      "Gold Coast",
+      "Hervey Bay",
+      "Ipswich",
+      "Mackay",
+      "Sunshine Coast",
+      "Toowoomba",
+      "Townsville"
+    ],
+    "ACT": [
+      "Canberra"
+    ],
+    "SA": [
+      "Adelaide"
+    ],
+    "WA": [
+      "Perth",
+      "Albany",
+      "Bunbury"
+    ],
+    "TAS": [
+      "Hobart",
+      "Launceston"
+    ],
+    "NT": [
+      "Darwin"
+    ]
+  }
+} 
